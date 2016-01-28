@@ -1,10 +1,10 @@
-<div class="col s12 m2"><div class="z-depth-1">
+<div class="col s12 m2"><div class="card-panel">
     <div class="col s10 m2">
-        <a href='http://ii-net.tk/ii/ii-web.php?msgid=[% msgid %]'>[% subg %]</a><br />
-        <i><small>[% time %] UTC</small></i>
+        <a class="flow-text" href='http://ii-net.tk/ii/ii-web.php?msgid=[% msgid %]'>[% subg %]</a><br />
+        <i>[% time %] UTC</i>
         <p>
             echo: <a href='http://ii-net.tk/ii/ii-web.php?echo=[% echo %]'>[% echo %]</a><br />
-            <!-- <b>id: [% msgid %]<br /> -->
+            id: [% msgid %]<br />
             From: [% author %]<br />
             To: [% to %]<br />
         </p>
